@@ -28,6 +28,7 @@ DEBUG = os.getenv("DEBUG", "True") == "True"
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
+    'bookmark-api-crwa.onrender.com',
     '.onrender.com',
 ]
 
